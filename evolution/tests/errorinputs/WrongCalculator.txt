@@ -1,0 +1,32 @@
+*head
+days 50  
+
+map_hight 20  
+map_width 25
+nutritions_divider 2
+calculator 6 3 4 3 #aegsefweg
+#45654
+---------
+
+*plant
+name p2
+size 1.21 
+count 25  
+nourishment 2  
+changer 2 0.7 25 5 
+				
+-------------
+*species
+
+name a1
+size 3.5 
+sense 4.2 
+dexterity 5
+reproduction 1.2
+mutation 0.1   
+food 1.2 2 
+count 10	
+hunger 2
+stop_eat 1.5
+ 
+------------

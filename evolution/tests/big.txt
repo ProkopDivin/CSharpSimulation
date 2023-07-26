@@ -1,0 +1,103 @@
+*head 
+days 100  
+
+map_hight 100
+map_width 100
+nutritions_divider 2
+calculator 2 4 6 4.5 #id ,size,sense,dexterity
+#45654
+---------
+
+*plant
+name p1
+size 1.01 
+count 250  
+nourishment 2  
+changer 3 1 250 10 
+				
+-------------
+*plant
+name p2
+size 3.21 
+count 150  
+nourishment 4  
+changer 3 1 250 10 
+				
+-------------
+*plant
+name p3
+size 2.21 
+count 150  
+nourishment 3  
+changer 3 1 250 90 
+				
+-------------
+*species
+
+name a1
+size 4.5 
+sense 8.2 
+dexterity 11
+reproduction 2
+mutation 0.1   
+food  7.8 0   #meat #plants
+count 20	
+stop_eat 1.5
+ 
+------------
+
+*species
+
+name a2
+size 5.21 
+sense 6 
+dexterity 10
+reproduction 1.7
+mutation 0.1   
+food 7.5 0.5 
+count 20	
+------------
+*species
+
+name a3
+size 2.2 
+sense 7 
+dexterity 8
+reproduction 1.2
+mutation 0.1   
+food  1.5 0.9 
+count 20	
+------------
+*species
+
+name a4
+size 5.2 
+sense 6
+dexterity 7
+reproduction 1.2
+mutation 0.1   
+food  0 2.3
+count 20	
+------------
+*species
+
+name a4
+size 3.5 
+sense 5 
+dexterity 7
+reproduction 1.2
+mutation 0.1   
+food  0 2 
+count 20	
+------------
+
+#zbavit se new
+#kontrola dat 
+
+
+#velká mapa
+#zbavit se get cislo a tak aby bylo v2det co to je 
+#pořádně oběktový návrh 
+#velikost v2c9 --->efektivita 
+#pojmenovat konstanty 
+#array

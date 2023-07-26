@@ -1,0 +1,52 @@
+*head 
+days 100  
+
+map_hight 20  
+map_width 25
+nutritions_divider 2
+calculator 0 4 4 4.5 #id ,size,sense,dexterity
+#45654
+---------
+
+*plant
+name p1
+size 1.01 
+count 25  
+nourishment 3  
+changer 3 0.85 25 10 
+				
+-------------
+*plant
+name p2
+size 3.21 
+count 25  
+nourishment 2  
+changer 3 0.7 25 10 
+				
+-------------
+*species
+
+name a1
+size 3.5 
+sense 4.2 
+dexterity 6
+reproduction 1.2
+mutation 0.1   
+food  4 0   #meat #plants
+count 10	
+stop_eat 1.5
+ 
+------------
+
+*species
+
+name a2
+size 3.2 
+sense 4.2 
+dexterity 11
+reproduction 1.2
+mutation 0.1   
+food  2 2 
+count 10	
+------------
+
